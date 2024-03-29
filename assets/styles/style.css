@@ -1,3 +1,7 @@
+*{
+  
+    font-family: "Archivo", sans-serif;
+}
 body{
     background-color: #080a0c;
 
@@ -31,4 +35,9 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+span{
+    background-image: linear-gradient(to right, rgb(198, 244, 233) , rgb(214, 110, 234) , rgb(217, 78, 245) , rgb(210, 152, 4));
+ -webkit-background-clip: text;
+ color: transparent;
 }
